@@ -39,10 +39,10 @@
           "name": "prova-0.1.jar",
           "url": "prova-0.1.jar",
           "size": 1471,
-          "sha512": "d20727ee435dc12fbf6a9b313d1e4c1c812180880497be1ab08d357de124fab4013577a91efd900fca1f85e964ca117c4869eb5c69be11ab6523cc849902a913",
-          "sha256": "485f9c3e3d5f1884fb05b3d211aec7022d566c5bfb0f3d9bf291e82c5bb6428d",
-          "sha1": "e20b1dfa229c1c188b50ea340e965b5da77bd557",
-          "md5": "cea1eb4f085531238aef2294fe663954"
+          "sha512": "3758d563a881c99c0d38a8c0a796d4e861c33a157607d07d242cf22ffd0a3cd6dd66a0bf59d74ae434a41bd2de74afca41a483a5a799d7509167f5b1b1b8d372",
+          "sha256": "0fc40010e54a48547a3e0a2870d2ad8aa7efe3ad3725b00e5c08686a4c855345",
+          "sha1": "957df9938b6f1c1c168277933dadc42503df9874",
+          "md5": "6d76ae3b0efc6eaf628122396b9417cf"
         }
       ]
     },
@@ -71,10 +71,10 @@
           "name": "prova-0.1.jar",
           "url": "prova-0.1.jar",
           "size": 1471,
-          "sha512": "d20727ee435dc12fbf6a9b313d1e4c1c812180880497be1ab08d357de124fab4013577a91efd900fca1f85e964ca117c4869eb5c69be11ab6523cc849902a913",
-          "sha256": "485f9c3e3d5f1884fb05b3d211aec7022d566c5bfb0f3d9bf291e82c5bb6428d",
-          "sha1": "e20b1dfa229c1c188b50ea340e965b5da77bd557",
-          "md5": "cea1eb4f085531238aef2294fe663954"
+          "sha512": "3758d563a881c99c0d38a8c0a796d4e861c33a157607d07d242cf22ffd0a3cd6dd66a0bf59d74ae434a41bd2de74afca41a483a5a799d7509167f5b1b1b8d372",
+          "sha256": "0fc40010e54a48547a3e0a2870d2ad8aa7efe3ad3725b00e5c08686a4c855345",
+          "sha1": "957df9938b6f1c1c168277933dadc42503df9874",
+          "md5": "6d76ae3b0efc6eaf628122396b9417cf"
         }
       ]
     }
