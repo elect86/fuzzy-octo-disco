@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "multi.project",
+    "module": "app",
+    "version": "2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "app-2.1.jar",
+          "url": "app-2.1.jar",
+          "size": 1188,
+          "sha512": "fc9e8994c5f6b854374cbf399ac8eddd02e998d2b01a7e2095dcec11d2b03185faada6be7659a57c199821d655b0a36ac3a3f93cb4ce8bfbc0ef650eaed17083",
+          "sha256": "5297c64f14a5f90beacb759692ca4cbab1ed9d1f1b46a6120512571fb4117101",
+          "sha1": "7652a0e1333a290588dbd6eb796015219f8f7f17",
+          "md5": "670c27c2cb8356d4aae31ee48706a771"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "multi.project",
+          "module": "lib",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-2.1.jar",
+          "url": "app-2.1.jar",
+          "size": 1188,
+          "sha512": "fc9e8994c5f6b854374cbf399ac8eddd02e998d2b01a7e2095dcec11d2b03185faada6be7659a57c199821d655b0a36ac3a3f93cb4ce8bfbc0ef650eaed17083",
+          "sha256": "5297c64f14a5f90beacb759692ca4cbab1ed9d1f1b46a6120512571fb4117101",
+          "sha1": "7652a0e1333a290588dbd6eb796015219f8f7f17",
+          "md5": "670c27c2cb8356d4aae31ee48706a771"
+        }
+      ]
+    }
+  ]
+}
