@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "multi.project",
+    "module": "lib",
+    "version": "2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lib-2.1.jar",
+          "url": "lib-2.1.jar",
+          "size": 856,
+          "sha512": "97a9ab814906d575e329cd9f99a356b5502ef7738dadb1ec863cc001a7f8b49cd8a51908e43f40cf3d577ae295cea1cbbc4df66f9317ee74470d6cc2b7a8bef4",
+          "sha256": "751108e2cd99e6a141bcc5b84121edccd51ea7e5ade9d36162cc27c293603e12",
+          "sha1": "1430eec7b983319527be1cd20b1784a2b38b10da",
+          "md5": "8330b0d8b1fc5b935b1e2e9b9587bbe4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-2.1.jar",
+          "url": "lib-2.1.jar",
+          "size": 856,
+          "sha512": "97a9ab814906d575e329cd9f99a356b5502ef7738dadb1ec863cc001a7f8b49cd8a51908e43f40cf3d577ae295cea1cbbc4df66f9317ee74470d6cc2b7a8bef4",
+          "sha256": "751108e2cd99e6a141bcc5b84121edccd51ea7e5ade9d36162cc27c293603e12",
+          "sha1": "1430eec7b983319527be1cd20b1784a2b38b10da",
+          "md5": "8330b0d8b1fc5b935b1e2e9b9587bbe4"
+        }
+      ]
+    }
+  ]
+}
