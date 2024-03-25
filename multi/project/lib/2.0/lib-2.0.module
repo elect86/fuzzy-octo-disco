@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "multi.project",
+    "module": "lib",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lib-2.0.jar",
+          "url": "lib-2.0.jar",
+          "size": 856,
+          "sha512": "dbcc655b0c874b7c1006045aca4a475dede00681ef77bd1f436d5e80c3333b9f7999bd856e2a85a87c40e76b54f61880774579e8067d3892cc4b40b74de64f47",
+          "sha256": "ba76e2c5b74905c1db2fd605870e02031cd60db3a03186b37b740dcdc6b16605",
+          "sha1": "81525b5ba25f57d6b4db9d9745b926fecf099a54",
+          "md5": "6838f56987bd0d5a5605485415e4a0ed"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-2.0.jar",
+          "url": "lib-2.0.jar",
+          "size": 856,
+          "sha512": "dbcc655b0c874b7c1006045aca4a475dede00681ef77bd1f436d5e80c3333b9f7999bd856e2a85a87c40e76b54f61880774579e8067d3892cc4b40b74de64f47",
+          "sha256": "ba76e2c5b74905c1db2fd605870e02031cd60db3a03186b37b740dcdc6b16605",
+          "sha1": "81525b5ba25f57d6b4db9d9745b926fecf099a54",
+          "md5": "6838f56987bd0d5a5605485415e4a0ed"
+        }
+      ]
+    }
+  ]
+}
